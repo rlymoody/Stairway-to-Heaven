@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wing_02_Burning
+  m_Shader: {fileID: 4800000, guid: beb1b2e74eb3a934ab42127981d53ddb, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: <noninit>
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Albedo
+      second:
+        m_Texture: {fileID: 2800000, guid: 4aad458ae1d6c2e42accc12c6dfc8767, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BurningMaskUV2
+      second:
+        m_Texture: {fileID: 2800000, guid: cdd2eace4b6a9c948bb47764d506f447, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 121635873174f4145a1c1d42211fee4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicSmoothness
+      second:
+        m_Texture: {fileID: 2800000, guid: dcdc3dfcb9ab0e24d9526650173dc13d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 4ef08641c2b366042b6e16a0a6829ea0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texcoord2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: <noninit>
+      second: 0
+    - first:
+        name: _BurningContrast
+      second: 0.358
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _NormalStrength
+      second: 1
+    - first:
+        name: _Smoothness
+      second: 1
+    - first:
+        name: _Speed
+      second: 0.15
+    - first:
+        name: __dirty
+      second: 1
+    m_Colors:
+    - first:
+        name: <noninit>
+      second: {r: 0, g: 1.0783223e-34, b: 0, a: 1.078315e-34}
+    - first:
+        name: _Color
+      second: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 4, g: 1.2413791, b: 0, a: 1}
